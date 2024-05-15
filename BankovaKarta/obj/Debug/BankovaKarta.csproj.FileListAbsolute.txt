@@ -1,0 +1,7 @@
+C:\Aykut 9a\BankovaKarta\bin\Debug\BankovaKarta.exe.config
+C:\Aykut 9a\BankovaKarta\bin\Debug\BankovaKarta.exe
+C:\Aykut 9a\BankovaKarta\bin\Debug\BankovaKarta.pdb
+C:\Aykut 9a\BankovaKarta\obj\Debug\BankovaKarta.csproj.AssemblyReference.cache
+C:\Aykut 9a\BankovaKarta\obj\Debug\BankovaKarta.csproj.CoreCompileInputs.cache
+C:\Aykut 9a\BankovaKarta\obj\Debug\BankovaKarta.exe
+C:\Aykut 9a\BankovaKarta\obj\Debug\BankovaKarta.pdb
