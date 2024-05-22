@@ -13,6 +13,8 @@ namespace BankovaKarta
         { get; set; }
         public static string Ulica
         { get; set; }
+ 
+
     }
     internal class Program
     {
@@ -28,6 +30,7 @@ namespace BankovaKarta
             double[] vkaranipari = new double[n];
             double[] lihva=new double[n];
             double[] iztegleni=new double[n];
+
             for (int i=0; i<n; i++)
             {
                 Console.WriteLine("Kide jivee:");
@@ -64,12 +67,31 @@ namespace BankovaKarta
             }
             for (int i=0;i<n;i++)
             {
-                double a = lihva[i];
                 Console.WriteLine($"Mestopolojenie: {mestopolojenie[i]}, Ulica: {ulica[i]}, Ime: {ime[i]}, Familiq: {familiq[i]}, Nomer: {nomerkarta[i]}, Vkarani pari: {vkaranipari[i]}, Procent na lihvata: {lihva[i]}, Iztegleni pari: {iztegleni[i]}.");
-                Console.WriteLine("Za kraq na meseca imash:" + lihva[i] % vkaranipari[i]);
             }
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine("Izhod lihva");
+                Console.WriteLine("Za kraq na meseca imash:" + vkaranipari[i] / lihva[i]);
+            }
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine("Dali shte teglish?");
+                if (vkaranipari[i]<=10)
+                {
+                    Console.WriteLine(ime[i] + " " + vkaranipari[i]);
+                }
+                else
+                {
+                    Console.WriteLine("Nqma takiva");
+                }
+            }
+            for (int i = 0; i < n; i++)
+            {
+                Karta.Izhod();
 
 
+            }
         }
     }
 }
